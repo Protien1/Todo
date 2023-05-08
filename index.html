@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Time $top</title>
+  <link rel="stylesheet" href="./main.scss">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap" rel="stylesheet">
+
+  <script src="https://kit.fontawesome.com/60e19c4821.js" crossorigin="anonymous"></script>
+
+
+
+
+</head>
+
+<body>
+
+  <div class="todo">
+
+    <div class="app-body-top">
+      <h1 class="headder-name">todo list</h1>
+      <input class="main-input" type="text" placeholder="Wpisz treść zdania">
+      <button class="add-btn">ADD</button>
+    </div>
+    <div class="app-body-down">
+      <h2>Lista zadań:</h2>
+      <p class="ul-is-empty">Brak zadań na liście.</p>
+    
+      <ul class="ul-list">
+        <!-- <li>test
+          <div class="tools"><i class="fa-solid fa-check"></i>
+            <p class="edit">EDIT</p> <i class="fa-solid fa-xmark"></i>
+          </div>
+        </li> -->
+      </ul>
+    </div>
+  </div>
+
+  <div class="edit-note">
+    <h2>Edytuj zadanie:</h2>
+    <p class="error">Musisz podać jakaś treść!</p>
+    <input class="edit-note-input" type="text" placeholder="Wprowadź nową treść zadania">
+    <div class="buttons">
+      <button class="accept">ZATWIERDŹ</button>
+    <button class="cancel">ANULUJ</button>
+    </div>
+
+  </div>
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
